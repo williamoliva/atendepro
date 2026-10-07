@@ -52,6 +52,14 @@
         border-radius: 18px;
     }
 
+    .webchat-container iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 700px;
+        border: 0;
+    }
+
     .demo-back {
         display: block;
         width: fit-content;
@@ -129,12 +137,19 @@
     </div>
 
 
-    <!-- O NOVO AGENTE APARECE COMO BALÃO NO CANTO INFERIOR DIREITO -->
+    <!-- NOVO CHATBOT BARBERPRO -->
 
-    <script 
-        async
-        src="https://app.gptmaker.ai/widget/3FA4C042BE38938A136F227E9271C1A0/float.js">
-    </script>
+    <div class="webchat-container">
+
+        <iframe 
+            src="https://app.gptmaker.ai/widget/3FA4C042BE38938A136F227E9271C1A0/iframe" 
+            width="100%" 
+            style="height: 100%; min-height: 700px" 
+            allow="microphone;" 
+            frameborder="0">
+        </iframe>
+
+    </div>
 
 
     <!-- VOLTAR -->
@@ -152,3 +167,4 @@
 </body>
 
 </html>
+
