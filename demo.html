@@ -1,162 +1,153 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AtendePro IA | Teste a demonstração</title>
+```
+<title>AtendePro IA | Teste a demonstração</title>
 
-    <meta name="description"
-        content="Teste o atendimento inteligente da AtendePro IA diretamente no seu navegador.">
+<meta name="description"
+    content="Teste o atendimento inteligente da AtendePro IA diretamente no seu navegador.">
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
-    <style>
+<style>
+    .demo-page {
+        min-height: 100vh;
+        padding: 110px 5% 70px;
+    }
+
+    .demo-header {
+        max-width: 850px;
+        margin: 0 auto 35px;
+        text-align: center;
+    }
+
+    .demo-header .tag {
+        display: inline-block;
+        margin-bottom: 18px;
+    }
+
+    .demo-header h1 {
+        margin-bottom: 15px;
+    }
+
+    .demo-header h1 span {
+        color: #a855f7;
+    }
+
+    .demo-header p {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    .webchat-container {
+        width: min(900px, 100%);
+        height: 720px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 18px;
+    }
+
+    .demo-back {
+        display: block;
+        width: fit-content;
+        margin: 30px auto 0;
+        text-decoration: none;
+    }
+
+    @media (max-width: 700px) {
+
         .demo-page {
-            min-height: 100vh;
-            padding: 110px 5% 70px;
-        }
-
-        .demo-header {
-            max-width: 850px;
-            margin: 0 auto 35px;
-            text-align: center;
-        }
-
-        .demo-header .tag {
-            display: inline-block;
-            margin-bottom: 18px;
+            padding: 90px 15px 40px;
         }
 
         .demo-header h1 {
-            margin-bottom: 15px;
-        }
-
-        .demo-header h1 span {
-            color: #a855f7;
-        }
-
-        .demo-header p {
-            max-width: 680px;
-            margin: 0 auto;
+            font-size: 32px;
         }
 
         .webchat-container {
-            width: min(900px, 100%);
-            height: 720px;
-            margin: 0 auto;
-            overflow: hidden;
-            border-radius: 18px;
+            height: 680px;
         }
 
-        .webchat-container iframe {
-            display: block;
-            width: 100%;
-            height: 100%;
-            min-height: 700px;
-            border: 0;
-        }
+    }
+</style>
+```
 
-        .demo-back {
-            display: block;
-            width: fit-content;
-            margin: 30px auto 0;
-            text-decoration: none;
-        }
-
-        @media (max-width: 700px) {
-
-            .demo-page {
-                padding: 90px 15px 40px;
-            }
-
-            .demo-header h1 {
-                font-size: 32px;
-            }
-
-            .webchat-container {
-                height: 680px;
-            }
-
-        }
-    </style>
 </head>
 
 <body>
 
-    <!-- HEADER -->
+```
+<!-- HEADER -->
 
-    <header>
+<header>
 
-        <a href="index.html" class="logo">
-            Atende<span>Pro</span> IA
-        </a>
+    <a href="index.html" class="logo">
+        Atende<span>Pro</span> IA
+    </a>
 
-        <nav>
-            <a href="index.html#solucao">Solução</a>
-            <a href="index.html#recursos">Recursos</a>
-            <a href="index.html#como-funciona">Como funciona</a>
-        </nav>
+    <nav>
+        <a href="index.html#solucao">Solução</a>
+        <a href="index.html#recursos">Recursos</a>
+        <a href="index.html#como-funciona">Como funciona</a>
+    </nav>
 
-        <a href="https://wa.me/5547991090130?text=Ol%C3%A1!%20Vi%20o%20AtendePro%20IA%20e%20gostaria%20de%20conhecer%20a%20solu%C3%A7%C3%A3o."
-           class="btn btn-small"
-           target="_blank"
-           rel="noopener noreferrer">
-            Falar conosco
-        </a>
+    <a href="https://wa.me/5547991090130?text=Ol%C3%A1!%20Vi%20o%20AtendePro%20IA%20e%20gostaria%20de%20conhecer%20a%20solu%C3%A7%C3%A3o."
+       class="btn btn-small"
+       target="_blank"
+       rel="noopener noreferrer">
+        Falar conosco
+    </a>
 
-    </header>
-
-
-    <!-- DEMONSTRAÇÃO -->
-
-    <main class="demo-page">
-
-        <div class="demo-header">
-
-            <span class="tag">
-                ✦ TESTE GRATUITAMENTE
-            </span>
-
-            <h1>
-                Experimente o <span>AtendePro IA</span>
-            </h1>
-
-            <p>
-                Converse com nossa inteligência artificial e veja na prática
-                como ela pode responder dúvidas, apresentar serviços e
-                realizar o primeiro atendimento dos seus clientes.
-            </p>
-
-        </div>
+</header>
 
 
-        <!-- WEB CHAT GPT MAKER -->
+<!-- DEMONSTRAÇÃO -->
 
-        <div class="webchat-container">
+<main class="demo-page">
 
-            <iframe
-                src="https://app.gptmaker.ai/widget/3F97A50EF0A023D3A040C60EC3422842/iframe"
-                width="100%"
-                style="height: 100%; min-height: 700px"
-                allow="microphone;"
-                frameborder="0">
-            </iframe>
+    <div class="demo-header">
 
-        </div>
+        <span class="tag">
+            ✦ TESTE GRATUITAMENTE
+        </span>
+
+        <h1>
+            Experimente o <span>AtendePro IA</span>
+        </h1>
+
+        <p>
+            Converse com nossa inteligência artificial e veja na prática
+            como ela pode responder dúvidas, apresentar serviços e
+            realizar o primeiro atendimento dos seus clientes.
+        </p>
+
+    </div>
 
 
-        <!-- VOLTAR -->
+    <!-- O NOVO AGENTE APARECE COMO BALÃO NO CANTO INFERIOR DIREITO -->
 
-        <a href="index.html" class="demo-back">
-            ← Voltar para o site
-        </a>
+    <script 
+        async
+        src="https://app.gptmaker.ai/widget/3FA4C042BE38938A136F227E9271C1A0/float.js">
+    </script>
 
-    </main>
+
+    <!-- VOLTAR -->
+
+    <a href="index.html" class="demo-back">
+        ← Voltar para o site
+    </a>
+
+</main>
 
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+```
 
 </body>
 
